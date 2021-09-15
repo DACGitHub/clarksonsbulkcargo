@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Single Handedly Navigating The World',
+    title: 'Clarksons Bulk Cargo',
     htmlAttrs: {
       lang: 'en'
     },

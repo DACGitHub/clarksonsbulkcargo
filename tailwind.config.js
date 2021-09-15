@@ -7,12 +7,10 @@ module.exports = {
     },
     colors: {
       white: '#fff',
-	  offwhite: '#C4E2F9',
-      darkgreen: '#0F2626',
-      darkergreen: '#0D2222',
-      purple: '#D666FF',
-      green: '#44F472',
-      red: '#FF4763',
+      darkblue: '#002E45',
+      brightblue: '#00BFFF',
+      lightblue: '#B3ECFF',
+      skyblue: '#E6F9FF'
     },
     extend: {
             keyframes: {

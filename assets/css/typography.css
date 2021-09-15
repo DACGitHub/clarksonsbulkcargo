@@ -1,110 +1,46 @@
 body {
-	font-family: work-sans, sans-serif;
+	font-family: niveau-grotesk, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	font-size: 16px;
 	line-height: 28px;
 }
 
-h1, h2, h3, h4, h5, a.footer-link span {
-	font-family: obviously, sans-serif;
-
+h1, h2, h3, h4, h5 {
+	font-family: niveau-grotesk, sans-serif;
+	font-weight: bold;
 }
 
 h1 {
-	font-size: 28px;
-	line-height: 45px;
+	font-size: 41px;
+	line-height: 53px;
 }
 
 
-h2, a.footer-link span {
-	font-size: 28px;
-	line-height: 45px;
+p  {
+	font-size: 30px;
+	line-height: 40px;
+}
+
+p.small {
+	font-size: 20px;
+	line-height: 25px;
+}
+
+h2 {
+	font-size: 25px;
+	line-height: 50px;
 }
 
 h3 {
-	font-size: 16px;
-	line-height: 28px;
-	font-weight: 500;
-}
-
-h4 {
-
-}
-
-.media-item a {
-	font-size: 22px;
-	line-height: 38px;
-}
-
-
-a.button {
-	font-family: obviously, sans-serif;
-	font-size: 17px;
-	font-weight: 600;
-}
-
-
-p {
-	font-size: 18px;
-	 margin-bottom: 2rem;
-  
-}
-
-a {
-
-}
-
-a.footer-link {
-	font-family: obviously-wide, sans-serif;
-	font-size: 40px;
-	line-height: 40px;
-	font-weight: 600;
-	display: block;
-}
-
-a.menu-link {
 	font-size: 25px;
+	line-height: 30px;
 }
 
 
-nav a {
-	font-family: obviously, sans-serif;
-	font-size: 17px;
-	line-height: 26px;
-	font-weight: 500;
-}
 
 
 @media (min-width: 1024px) {
-	
-	body {
-		font-size: 18px;
-		line-height: 30px;
-	}
-	
-	h1 {
-		font-size: 30px;
-		line-height: 50px;
-	}
-	
-	.media-item a {
-		font-size: 25px;
-		line-height: 40px;
-	}
-	
-	h2,	a.footer-link span {
-		font-size: 30px;
-		line-height: 50px;
-	}
-	
-	h3 {
-		font-size: 18px;
-		line-height: 30px;
-	}
-	
-	h4 {
-
-	}
-
 	
 	
 }
@@ -113,34 +49,25 @@ nav a {
 
 @media (min-width: 1536px) {
 	h1 {
+		font-size: 60px;
+		line-height: 70px;
+	}
+	
+	p {
 		font-size: 40px;
-		line-height: 60px;
-	}
-	
-	h2, a.footer-link span {
-		font-size: 40px;
-		line-height: 60px;
-	}
-	
-	h3 {
-		font-size: 18px;
-		line-height: 30px;
-	}
-	
-	.media-item a {
-		font-size: 30px;
 		line-height: 50px;
 	}
 	
-	h4 {
+	h2 {
+		font-size: 25px;
+		line-height: 50px;
+	}
 
+	h3 {
+		font-size: 30px;
+		line-height: 50px;
 	}
-	
-	a.footer-link {
-		font-size: 70px;
-		line-height: 90px;
-	}
-	
+
 	
 }
 
