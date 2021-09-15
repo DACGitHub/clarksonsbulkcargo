@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-netlify-cms-blueprint",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@lottiefiles/lottie-interactivity": "^0.1.4",
+    "@lottiefiles/lottie-player": "^1.0.4",
+    "@nuxt/content": "^1.11.1",
+    "core-js": "^3.8.3",
+    "fullpage-nuxt": "0.0.3",
+    "lottie-interactive": "^1.2.4",
+    "lottie-web": "^5.7.11",
+    "nuxt": "^2.14.12"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^3.4.2",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2"
+  }
+}

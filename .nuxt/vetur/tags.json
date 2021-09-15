@@ -1,0 +1,17 @@
+{
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "LottieScrollMobile": {
+    "description": "Auto imported from components/Lottie-scroll-mobile.vue"
+  },
+  "LottieScroll": {
+    "description": "Auto imported from components/Lottie-scroll.vue"
+  },
+  "Lottie": {
+    "description": "Auto imported from components/Lottie.vue"
+  },
+  "LottiescrollOld": {
+    "description": "Auto imported from components/Lottiescroll-old.vue"
+  }
+}
