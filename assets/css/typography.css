@@ -20,11 +20,13 @@ h1 {
 p  {
 	font-size: 30px;
 	line-height: 40px;
+	font-weight: 600;
 }
 
-p.small {
+p.small, a {
 	font-size: 20px;
 	line-height: 25px;
+	font-weight: normal;
 }
 
 h2 {
@@ -34,6 +36,7 @@ h2 {
 
 h3 {
 	font-size: 25px;
+	font-weight: normal;
 	line-height: 30px;
 }
 
@@ -65,7 +68,7 @@ h3 {
 
 	h3 {
 		font-size: 30px;
-		line-height: 50px;
+		line-height: 35px;
 	}
 
 	

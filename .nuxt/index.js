@@ -12,10 +12,10 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_2ab9abf8 from 'nuxt_plugin_plugin_2ab9abf8' // Source: ./components/plugin.js (mode: 'all')
-import nuxt_plugin_libplugin57f72787_71cd97bb from 'nuxt_plugin_libplugin57f72787_71cd97bb' // Source: ./lib.plugin.57f72787.js (mode: 'client')
-import nuxt_plugin_pluginclient_a9d68918 from 'nuxt_plugin_pluginclient_a9d68918' // Source: ./content/plugin.client.js (mode: 'client')
-import nuxt_plugin_pluginserver_10ce2cfc from 'nuxt_plugin_pluginserver_10ce2cfc' // Source: ./content/plugin.server.js (mode: 'server')
+import nuxt_plugin_plugin_5653d791 from 'nuxt_plugin_plugin_5653d791' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_libplugin85e6d940_51a6928c from 'nuxt_plugin_libplugin85e6d940_51a6928c' // Source: ./lib.plugin.85e6d940.js (mode: 'client')
+import nuxt_plugin_pluginclient_3fe51ae6 from 'nuxt_plugin_pluginclient_3fe51ae6' // Source: ./content/plugin.client.js (mode: 'client')
+import nuxt_plugin_pluginserver_45c6e415 from 'nuxt_plugin_pluginserver_45c6e415' // Source: ./content/plugin.server.js (mode: 'server')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -175,20 +175,20 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_2ab9abf8 === 'function') {
-    await nuxt_plugin_plugin_2ab9abf8(app.context, inject)
+  if (typeof nuxt_plugin_plugin_5653d791 === 'function') {
+    await nuxt_plugin_plugin_5653d791(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_libplugin57f72787_71cd97bb === 'function') {
-    await nuxt_plugin_libplugin57f72787_71cd97bb(app.context, inject)
+  if (process.client && typeof nuxt_plugin_libplugin85e6d940_51a6928c === 'function') {
+    await nuxt_plugin_libplugin85e6d940_51a6928c(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_pluginclient_a9d68918 === 'function') {
-    await nuxt_plugin_pluginclient_a9d68918(app.context, inject)
+  if (process.client && typeof nuxt_plugin_pluginclient_3fe51ae6 === 'function') {
+    await nuxt_plugin_pluginclient_3fe51ae6(app.context, inject)
   }
 
-  if (process.server && typeof nuxt_plugin_pluginserver_10ce2cfc === 'function') {
-    await nuxt_plugin_pluginserver_10ce2cfc(app.context, inject)
+  if (process.server && typeof nuxt_plugin_pluginserver_45c6e415 === 'function') {
+    await nuxt_plugin_pluginserver_45c6e415(app.context, inject)
   }
 
   // Lock enablePreview in context

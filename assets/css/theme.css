@@ -14,8 +14,8 @@ section {
 
 section img {
 	width:100%;
-	margin-top: -90px;
 }
+
 
 
 section.section-one {
@@ -23,5 +23,30 @@ section.section-one {
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
+	
+}
+
+
+@media (min-width: 1280px) {
+	section img {
+/* 		margin-top: -90px; */
+	}
+	
+		.pt-140 {
+		padding-top: 30vw;
+	}
+	.-mt-140 {
+		margin-top: -40vw;
+	}
+	
+}
+
+@media (min-width: 1536px) {
+	
+	section img {
+		width:100%;
+/* 		margin-top: -170px; */
+	}
+	
 	
 }
