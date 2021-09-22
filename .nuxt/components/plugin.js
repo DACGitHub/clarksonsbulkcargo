@@ -5,7 +5,8 @@ const components = {
   LottieScrollMobile: () => import('../../components/Lottie-scroll-mobile.vue' /* webpackChunkName: "components/lottie-scroll-mobile" */).then(c => c.default || c),
   LottieScroll: () => import('../../components/Lottie-scroll.vue' /* webpackChunkName: "components/lottie-scroll" */).then(c => c.default || c),
   Lottie: () => import('../../components/Lottie.vue' /* webpackChunkName: "components/lottie" */).then(c => c.default || c),
-  LottiescrollOld: () => import('../../components/Lottiescroll-old.vue' /* webpackChunkName: "components/lottiescroll-old" */).then(c => c.default || c)
+  LottiescrollOld: () => import('../../components/Lottiescroll-old.vue' /* webpackChunkName: "components/lottiescroll-old" */).then(c => c.default || c),
+  Map: () => import('../../components/Map.vue' /* webpackChunkName: "components/map" */).then(c => c.default || c)
 }
 
 for (const name in components) {

@@ -13,5 +13,8 @@
   },
   "LottiescrollOld": {
     "description": "Auto imported from components/Lottiescroll-old.vue"
+  },
+  "Map": {
+    "description": "Auto imported from components/Map.vue"
   }
 }
