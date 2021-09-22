@@ -4,6 +4,7 @@ body {
 	font-style: normal;
 	font-size: 16px;
 	line-height: 28px;
+	color: #022E45;
 }
 
 h1, h2, h3, h4, h5 {
@@ -11,7 +12,7 @@ h1, h2, h3, h4, h5 {
 	font-weight: bold;
 }
 
-h1 {
+h1, h2.h1 {
 	font-size: 41px;
 	line-height: 53px;
 }
@@ -51,7 +52,7 @@ h3 {
 
 
 @media (min-width: 1536px) {
-	h1 {
+	h1, h2.h1 {
 		font-size: 60px;
 		line-height: 70px;
 	}
