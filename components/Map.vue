@@ -813,12 +813,12 @@
       <div class="slick-carousel">
         <div>
           <div class="address">
-            <h4 class="mt-0">Aberdeen</h4>
+            <h4 class="mt-0 mb-2">Aberdeen</h4>
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_contact.svg" />
+              <div class="inline-block align-top">
+                <img class="list-icon" src="~/assets/img/icon_contact.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">Matthews Quay</p>
                 <p>Aberdeen Harbour</p>
                 <p>Aberdeen</p>
@@ -827,19 +827,19 @@
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_phone.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_phone.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">+44 (0) 1224 211500</p>
               </div>
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_email.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_email.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">aberdeen@clarksons.com</p>
               </div>
             </div>
@@ -848,14 +848,14 @@
 
         <div>
           <div class="address">
-            <h4 class="mt-0">Avonmouth</h4>
+            <h4 class="mt-0 mb-2">Avonmouth</h4>
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_contact.svg" />
+              <div class="inline-block align-top">
+                <img class="list-icon" src="~/assets/img/icon_contact.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">
-                  Ground Floor,<br /><br />St Andrews House
+                  Ground Floor,<br />St Andrews House
                 </p>
                 <p>St Andrews Road, Avonmouth</p>
                 <p>Bristol</p>
@@ -864,19 +864,19 @@
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_phone.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_phone.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">+44 (0) 1179 380810</p>
               </div>
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_email.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_email.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">avonmouth@clarksons.com</p>
               </div>
             </div>
@@ -885,12 +885,12 @@
 
         <div>
           <div class="address">
-            <h4 class="mt-0">Belfast</h4>
+            <h4 class="mt-0 mb-2">Belfast</h4>
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_contact.svg" />
+              <div class="inline-block align-top">
+                <img class="list-icon" src="~/assets/img/icon_contact.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">Lincoln Building</p>
                 <p>27 – 45 Great Victoria Street</p>
                 <p>Belfast</p>
@@ -899,19 +899,19 @@
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_phone.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_phone.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">+44 (0) 2890 242242</p>
               </div>
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_email.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_email.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">belfast@clarksons.com</p>
               </div>
             </div>
@@ -920,14 +920,14 @@
 
         <div>
           <div class="address">
-            <h4 class="mt-0">Blyth</h4>
+            <h4 class="mt-0 mb-2">Blyth</h4>
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_contact.svg" />
+              <div class="inline-block align-top">
+                <img class="list-icon" src="~/assets/img/icon_contact.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">
-                  Port of Blyth,<br /><br />Wimbourne Quay
+                  Port of Blyth,<br />Wimbourne Quay
                 </p>
                 <p>Regent Street, Blyth</p>
                 <p>NE24 1PX</p>
@@ -935,19 +935,19 @@
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_phone.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_phone.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">+44 (0) 1670 364602</p>
               </div>
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_email.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_email.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">blyth@clarksons.com</p>
               </div>
             </div>
@@ -956,31 +956,31 @@
 
         <div>
           <div class="address">
-            <h4 class="mt-0">Clyde</h4>
+            <h4 class="mt-0 mb-2">Clyde</h4>
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_contact.svg" />
+              <div class="inline-block align-top">
+                <img class="list-icon" src="~/assets/img/icon_contact.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">King George V Dock, Glasgow</p>
                 <p>NE24 1PX</p>
               </div>
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_phone.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_phone.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">+44 (0) 1383 428768</p>
               </div>
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_email.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_email.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">clyde@clarksons.com</p>
               </div>
             </div>
@@ -989,12 +989,12 @@
 
         <div>
           <div class="address">
-            <h4 class="mt-0">Dundee</h4>
+            <h4 class="mt-0 mb-2">Dundee</h4>
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_contact.svg" />
+              <div class="inline-block align-top">
+                <img class="list-icon" src="~/assets/img/icon_contact.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">Cairnie House, Prince Charles</p>
                 <p>Wharf, Dundee</p>
                 <p>DD1 3NA</p>
@@ -1002,19 +1002,19 @@
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_phone.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_phone.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">+44 (0) 1383 428768</p>
               </div>
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_email.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_email.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">dundee@clarksons.com</p>
               </div>
             </div>
@@ -1023,12 +1023,12 @@
 
         <div>
           <div class="address">
-            <h4 class="mt-0">Forth</h4>
+            <h4 class="mt-0 mb-2">Forth</h4>
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_contact.svg" />
+              <div class="inline-block align-top">
+                <img class="list-icon" src="~/assets/img/icon_contact.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">Suite 14, Liberty House</p>
                 <p>15 Cromarty Campus</p>
                 <p>Rosyth</p>
@@ -1037,19 +1037,19 @@
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_phone.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_phone.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">+44 (0) 1383 428768</p>
               </div>
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_email.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_email.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">forth@clarksons.com</p>
               </div>
             </div>
@@ -1060,12 +1060,12 @@
           <div class="address">
             <h4 class="mt-0">Great Yarmouth</h4>
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_contact.svg" />
+              <div class="inline-block align-top">
+                <img class="list-icon" src="~/assets/img/icon_contact.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">
-                  Brooklyn House,<br /><br />Gapton Hall Rd.
+                  Brooklyn House,<br />Gapton Hall Rd.
                 </p>
                 <p>Great Yarmouth, Norfolk</p>
                 <p>NR31 0RD</p>
@@ -1073,19 +1073,19 @@
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_phone.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_phone.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">+44 (0) 1493 856831</p>
               </div>
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_email.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_email.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">greatyarmouth@clarksons.com</p>
               </div>
             </div>
@@ -1094,12 +1094,12 @@
 
         <div>
           <div class="address">
-            <h4 class="mt-0">Hull</h4>
+            <h4 class="mt-0 mb-2">Hull</h4>
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_contact.svg" />
+              <div class="inline-block align-top">
+                <img class="list-icon" src="~/assets/img/icon_contact.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">One Business Village</p>
                 <p>Emily Street, Hull</p>
                 <p>HU9 1ND</p>
@@ -1107,19 +1107,19 @@
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_phone.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_phone.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">+44 1482 210435</p>
               </div>
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_email.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_email.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">humber@clarksons.com</p>
               </div>
             </div>
@@ -1128,12 +1128,12 @@
 
         <div>
           <div class="address">
-            <h4 class="mt-0">Immingham</h4>
+            <h4 class="mt-0 mb-2">Immingham</h4>
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_contact.svg" />
+              <div class="inline-block align-top">
+                <img class="list-icon" src="~/assets/img/icon_contact.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">Davian Business Centre</p>
                 <p>Plot U, Kiln Lane</p>
                 <p>Stallingboroug</p>
@@ -1142,19 +1142,19 @@
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_phone.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_phone.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">+44 (0) 1469 574649</p>
               </div>
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_email.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_email.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">humber@clarksons.com</p>
               </div>
             </div>
@@ -1163,12 +1163,12 @@
 
         <div>
           <div class="address">
-            <h4 class="mt-0">Invergordon</h4>
+            <h4 class="mt-0 mb-2">Invergordon</h4>
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_contact.svg" />
+              <div class="inline-block align-top">
+                <img class="list-icon" src="~/assets/img/icon_contact.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">Unit 7, Service Base</p>
                 <p>Shore Road, Invergordon</p>
                 <p>IV18 0EX</p>
@@ -1176,19 +1176,19 @@
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_phone.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_phone.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">+44 (0) 1349 627100</p>
               </div>
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_email.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_email.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">invergordon@clarksons.com</p>
               </div>
             </div>
@@ -1197,12 +1197,12 @@
 
         <div>
           <div class="address">
-            <h4 class="mt-0">Ipswich (Head Office)</h4>
+            <h4 class="mt-0 mb-2">Ipswich (Head Office)</h4>
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_contact.svg" />
+              <div class="inline-block align-top">
+                <img class="list-icon" src="~/assets/img/icon_contact.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">Maritime House</p>
                 <p>19a St Helens St</p>
                 <p>Ipswich</p>
@@ -1211,19 +1211,19 @@
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_phone.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_phone.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">+44 (0) 1473 297300</p>
               </div>
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_email.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_email.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">ipswich@clarksons.com</p>
               </div>
             </div>
@@ -1232,12 +1232,12 @@
 
         <div>
           <div class="address">
-            <h4 class="mt-0">Ipswich (Port Office)</h4>
+            <h4 class="mt-0 mb-2">Ipswich (Port Office)</h4>
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_contact.svg" />
+              <div class="inline-block align-top">
+                <img class="list-icon" src="~/assets/img/icon_contact.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">Sentinel Terminal</p>
                 <p>Cliff Quay</p>
                 <p>Ipswich</p>
@@ -1246,19 +1246,19 @@
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_phone.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_phone.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">+44 (0) 1473 261140</p>
               </div>
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_email.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_email.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">ipswich@clarksons.com</p>
               </div>
             </div>
@@ -1267,12 +1267,12 @@
 
         <div>
           <div class="address">
-            <h4 class="mt-0">Lerwick</h4>
+            <h4 class="mt-0 mb-2">Lerwick</h4>
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_contact.svg" />
+              <div class="inline-block align-top">
+                <img class="list-icon" src="~/assets/img/icon_contact.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">Block 2, Greenhead Base</p>
                 <p>Gremista, Lerwick</p>
                 <p>Shetland</p>
@@ -1281,19 +1281,19 @@
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_phone.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_phone.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">+44 (0) 1595 695717</p>
               </div>
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_email.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_email.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">lerwick@clarksons.com</p>
               </div>
             </div>
@@ -1302,14 +1302,14 @@
 
         <div>
           <div class="address">
-            <h4 class="mt-0">Liverpool</h4>
+            <h4 class="mt-0 mb-2">Liverpool</h4>
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_contact.svg" />
+              <div class="inline-block align-top">
+                <img class="list-icon" src="~/assets/img/icon_contact.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">
-                  16 Century Buliding,<br /><br />Brunswick Business Park
+                  16 Century Buliding,<br />Brunswick Business Park
                 </p>
                 <p>Tower St, Liverpool</p>
                 <p>L3 4BJ</p>
@@ -1317,19 +1317,19 @@
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_phone.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_phone.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">+44 (0) 1516 661575</p>
               </div>
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_email.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_email.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">liverpool@clarksons.com</p>
               </div>
             </div>
@@ -1338,12 +1338,12 @@
 
         <div>
           <div class="address">
-            <h4 class="mt-0">Montrose</h4>
+            <h4 class="mt-0 mb-2">Montrose</h4>
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_contact.svg" />
+              <div class="inline-block align-top">
+                <img class="list-icon" src="~/assets/img/icon_contact.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">Harbour Office, S. Quay</p>
                 <p>Ferryden</p>
                 <p>Montrose, Angus</p>
@@ -1352,19 +1352,19 @@
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_phone.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_phone.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">+44 (0) 1224 211500</p>
               </div>
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_email.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_email.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">montrose@clarksons.com</p>
               </div>
             </div>
@@ -1373,12 +1373,12 @@
 
         <div>
           <div class="address">
-            <h4 class="mt-0">Newcastle</h4>
+            <h4 class="mt-0 mb-2">Newcastle</h4>
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_contact.svg" />
+              <div class="inline-block align-top">
+                <img class="list-icon" src="~/assets/img/icon_contact.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">Suite 207, Navigation House</p>
                 <p>Tyne Dock, South Shields</p>
                 <p>NE34 0AB</p>
@@ -1386,19 +1386,19 @@
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_phone.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_phone.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">+44 (0) 1914 277043</p>
               </div>
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_email.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_email.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">tyne@clarksons.com</p>
               </div>
             </div>
@@ -1407,12 +1407,12 @@
 
         <div>
           <div class="address">
-            <h4 class="mt-0">Southampton</h4>
+            <h4 class="mt-0 mb-2">Southampton</h4>
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_contact.svg" />
+              <div class="inline-block align-top">
+                <img class="list-icon" src="~/assets/img/icon_contact.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">Berth 36, Test Road</p>
                 <p>Eastern Docks, Dock Gate 4</p>
                 <p>Southampton</p>
@@ -1421,19 +1421,19 @@
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_phone.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_phone.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">+44 (0) 2380 229577</p>
               </div>
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_email.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_email.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">southampton@clarksons.com</p>
               </div>
             </div>
@@ -1442,12 +1442,12 @@
 
         <div>
           <div class="address">
-            <h4 class="mt-0">Tilbury</h4>
+            <h4 class="mt-0 mb-2">Tilbury</h4>
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_contact.svg" />
+              <div class="inline-block align-top">
+                <img class="list-icon" src="~/assets/img/icon_contact.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">Room 10, Cereals House</p>
                 <p>Port of Tilbury, Tilbury</p>
                 <p>RM18 7LR</p>
@@ -1455,19 +1455,19 @@
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_phone.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_phone.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">+44 (0) 1375 859711</p>
               </div>
             </div>
 
             <div>
-              <div class="inline top-of-the-pops">
-                <img class="list-icon" src="media/icon_email.svg" />
+              <div class="inline-block align-middle">
+                <img class="list-icon" src="~/assets/img/icon_email.svg" />
               </div>
-              <div class="inline">
+              <div class="inline-block">
                 <p class="mt-0">tilbury@clarksons.com</p>
               </div>
             </div>
