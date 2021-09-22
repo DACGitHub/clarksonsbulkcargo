@@ -133,13 +133,8 @@
 			<div class="container">
 				
 					<h2 class="h1 text-center">Contact us</h2>
-					<div class="grid lg:grid-cols-2">
-						<div class="">
-							<p class="hidden xl:block">Select a location for<br /> contact information</p>
-						</div>
-						<div class="">
-						</div>
-					</div>
+
+					<Map></Map>
 				
 			</div>
 			

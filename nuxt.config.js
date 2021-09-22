@@ -30,6 +30,7 @@ export default {
   css: [
     '~/assets/css/typography.css',
 	  '~/assets/css/theme.css',
+    '~/assets/css/map.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

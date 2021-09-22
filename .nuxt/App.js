@@ -14,6 +14,8 @@ import '../assets/css/typography.css'
 
 import '../assets/css/theme.css'
 
+import '../assets/css/map.css'
+
 import '../node_modules/prismjs/themes/prism.css'
 
 import _6f6c098b from '../layouts/default.vue'

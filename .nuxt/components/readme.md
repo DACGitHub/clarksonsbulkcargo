@@ -11,3 +11,4 @@ You can directly use them in pages and other components without the need to impo
 - `<LottieScroll>` | `<lottie-scroll>` (components/Lottie-scroll.vue)
 - `<Lottie>` | `<lottie>` (components/Lottie.vue)
 - `<LottiescrollOld>` | `<lottiescroll-old>` (components/Lottiescroll-old.vue)
+- `<Map>` | `<map>` (components/Map.vue)
