@@ -75,14 +75,14 @@
 		<section class="section-one text-center" id="cargo">
 			<img class="-mt-16 xl:-mt-48" src="~assets/img/first-section.svg">
 			<div class="container pt-20 xl:pt-24 pb-20">
-				<h2 class="text-brightblue">Cargo</h2>
+				<h2 class="text-darkblue">Cargo</h2>
 				<p>Crops grown to meet<br class="hidden md:block" /> demand in global market</p>
 			</div>
 			<img class="xl:-mt-32" src="~assets/img/second-section.svg">
 		</section>
 		<section class="section-two text-center" id="trader">
 			<div class="container pt-24 xl:pt-96">
-				<h2 class="text-brightblue">Trader</h2>
+				<h2 class="text-darkblue">Trader</h2>
 				<p>Trader connects<br class="hidden md:block" /> crops to buyer</p>
 			</div>
 			<img class="hidden xl:block xl:-mt-80" src="~assets/img/third-section.svg">
@@ -90,8 +90,8 @@
 		</section>
 		<section class="section-three bg-lightblue text-center" id="broker">
 			<img class="block xl:hidden xl:mt-12 md:-ml-72 -ml-32 pt-32" src="~assets/img/fourth-section_mobile1.svg">
-			<div class="container pt-16 xl:pt-48 pb-20">
-				<h2 class="text-brightblue">Broker</h2>
+			<div class="container pt-8 xl:pt-48 pb-20">
+				<h2 class="text-darkblue">Broker</h2>
 				<p>Our Ship Brokers source the<br class="hidden md:block" /> appropriate vessel and<br class="hidden md:block"/> trading routes for shipment</p>
 			</div>
 			<img class="hidden xl:block xl:-mt-96" src="~assets/img/fourth-section.svg">
@@ -99,7 +99,7 @@
 		</section>
 		<section class="section-four bg-lightblue text-center" id="customs">
 			<div class="container pt-48 pb-20">
-				<h2 class="text-brightblue">Customs</h2>
+				<h2 class="text-darkblue">Customs</h2>
 				<p>Our Customs Agents provide<br class="hidden md:block" /> guidance and support to ensure<br class="hidden md:block"/> the relevant customs clearance is<br class="hidden md:block"/> completed in a timely manner</p>
 			</div>
 			<img class="hidden xl:block xl:-mt-80" src="~assets/img/fifth-section.svg">
@@ -108,7 +108,7 @@
 		<section class="section-five text-center" id="ships-agent">
 			<img class="block xl:hidden mb-16" src="~assets/img/sixth-section_mobile1.svg">
 			<div class="container pt-140 pb-20">
-				<h2 class="text-brightblue">Ships agent</h2>
+				<h2 class="text-darkblue">Ships agent</h2>
 				<p>Our Ships Agents coordinate<br class="hidden md:block" /> and facilitate all parties<br class="hidden md:block"/> requirements within the port</p>
 			</div>
 			<img class="hidden xl:block -mt-140 xl:-mb-32 xl:-ml-36" src="~assets/img/sixth-section.svg">
