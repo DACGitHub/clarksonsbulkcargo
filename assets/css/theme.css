@@ -78,12 +78,12 @@ section.section-one {
 .m-menu .burger-icon::before {
   -webkit-transform: translateY(8px) rotate(45deg);
   transform: translateY(8px) rotate(45deg);
-  background-color: #fff;
+  background-color: #022E45;
 }
 .m-menu .burger-icon::after {
   -webkit-transform: translateY(-8px) rotate(-45deg);
   transform: translateY(-8px) rotate(-45deg);
-  background-color: #fff;
+  background-color: #022E45;
 }
 
 
@@ -96,7 +96,6 @@ section.section-one {
   width: 100%;
   z-index: 1000;
   overflow: hidden;
-  background-color: #002E45;
   top: 0;
 }
 
@@ -127,7 +126,10 @@ section.section-one {
 	height: 77px;
 }
 
-
+	section img {
+		width:100%;
+/* 		margin-top: -170px; */
+	}
 
 
 .visually-hidden { 
