@@ -1591,6 +1591,12 @@ export default {
 .map-place {
   cursor: pointer;
   transform: scale(1);
+  transition: all 0.2s cubic-bezier(.17,.67,.84,1.17);
+}
+
+.map-place:hover {
+  transform: scale(1.2);
+  transition: all 0.2s cubic-bezier(.17,.67,.84,1.17);
 }
 
 .map-section-icons {
@@ -1684,6 +1690,8 @@ export default {
 .list-icon {
   width: auto;
 }
+
+
 
 @media only screen and (min-width: 992px) {
 
