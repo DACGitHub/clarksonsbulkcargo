@@ -63,7 +63,7 @@
 					</div>
 				</div>
 				<div class="grid grid-cols-1 justify-items-center items-center">
-					<div class="text-center pt-16 pb-48 xl:pb-72">
+					<div class="text-center pt-40 xl:pt-16 pb-48 xl:pb-72">
 						<h1 class="text-brightblue">Supporting growth across<br class="hidden md:block" /> the Agri Bulk Sector</h1>
 					</div>
 				</div>
@@ -236,17 +236,11 @@ export default {
   data() {
 		return {
 			menu: false,
-			fixedMenu: false,
+			fixedMenu: true,
 		}
   },
 	methods: {
-		handleScroll () {
-			if (window.scrollY > window.innerHeight + 0){
-				this.fixedMenu = true
-			} else {
-				this.fixedMenu = false
-			}
-		}
+		
 	},
 	mounted () {
 		window.addEventListener('scroll', this.handleScroll);
