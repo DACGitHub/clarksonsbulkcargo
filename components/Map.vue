@@ -1636,16 +1636,20 @@ export default {
   padding-left: 15%;
   overflow: auto;
   white-space: nowrap;
+  display:flex;
+  
 }
 
 .slick-carousel > div {
   display: inline-block;
-  width: 80%;
-  min-width: 225px;
-  max-width: 400px;
+/*  width: 80%; */
+/*  min-width: 225px; */
+/*  max-width: 400px; */
   vertical-align: top;
-  height: 100%;
+/*   height: 100%; */
   /* height: 350px; */
+  flex:1;
+  margin-right:20px;
 }
 
 .slick-carousel .address {
@@ -1653,11 +1657,20 @@ export default {
   /* min-height: 257px; */
 }
 
+
 .slick-carousel .address {
   background-color: #b3ecff;
   border-radius: 15px;
   padding: 15px;
   margin: 0px 20px;
+  width:55vw;
+  margin-right:20px;
+}
+
+@media screen and (min-width: 450px) and (max-width: 992px) {
+	.slick-carousel .address {
+		width:44vw;
+	}
 }
 
 .slick-carousel .address p {
@@ -1690,6 +1703,8 @@ export default {
 .list-icon {
   width: auto;
 }
+
+
 
 
 
