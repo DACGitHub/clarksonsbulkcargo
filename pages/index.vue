@@ -73,28 +73,33 @@
 
 		<!-- <section class="section-one flex h-screen justify-center items-center text-center"> -->
 		<section class="section-one text-center" id="cargo">
-			<img class="-mt-16 xl:-mt-48" src="~assets/img/first-section.svg">
+<!-- 			<img class="-mt-16 xl:-mt-48" src="~assets/img/first-section.svg"> -->
+			<!-- set the animation prob to the name of the file in static/animations and the component will take care of the rest :) -->
+		      <Lottie class="-mt-16 xl:-mt-48" animation="intro"></Lottie>
 			<div class="container pt-20 xl:pt-24 pb-20">
 				<h2 class="text-darkblue">Cargo</h2>
 				<p>Crops grown to meet<br class="hidden md:block" /> demand in global market</p>
 			</div>
-			<img class="xl:-mt-32" src="~assets/img/second-section.svg">
+<!-- 			<img class="xl:-mt-32" src="~assets/img/second-section.svg"> -->
+		    <Lottie class="xl:-mt-32" animation="cargo"></Lottie>
 		</section>
 		<section class="section-two text-center" id="trader">
 			<div class="container pt-24 xl:pt-96">
 				<h2 class="text-darkblue">Trader</h2>
 				<p>Trader connects<br class="hidden md:block" /> crops to buyer</p>
 			</div>
-			<img class="hidden xl:block xl:-mt-80" src="~assets/img/third-section.svg">
+<!-- 			<img class="hidden xl:block xl:-mt-80" src="~assets/img/third-section.svg"> -->
+		    <Lottie class="hidden xl:block xl:-mt-80" animation="trader"></Lottie>
 			<img class="block xl:hidden mt-12" src="~assets/img/third-section_mobile.svg">
 		</section>
 		<section class="section-three bg-lightblue text-center" id="broker">
 			<img class="block xl:hidden xl:mt-12 md:-ml-72 -ml-32 pt-32" src="~assets/img/fourth-section_mobile1.svg">
-			<div class="container pt-8 xl:pt-48 pb-20">
+			<div class="container pt-8 xl:pt-48 pb-20" style="z-index: 100; position: relative;">
 				<h2 class="text-darkblue">Broker</h2>
 				<p>Our Ship Brokers source the<br class="hidden md:block" /> appropriate vessel and<br class="hidden md:block"/> trading routes for shipment</p>
 			</div>
-			<img class="hidden xl:block xl:-mt-96" src="~assets/img/fourth-section.svg">
+<!-- 			<img class="hidden xl:block xl:-mt-96" src="~assets/img/fourth-section.svg"> -->
+		    <Lottie class="hidden xl:block xl:-mt-96" style="z-index:1 ; position: relative;" animation="broker"></Lottie>
 			<img class="block xl:hidden" src="~assets/img/fourth-section_mobile2.svg">
 		</section>
 		<section class="section-four bg-lightblue text-center" id="customs">
@@ -102,7 +107,8 @@
 				<h2 class="text-darkblue">Customs</h2>
 				<p>Our Customs Agents provide<br class="hidden md:block" /> guidance and support to ensure<br class="hidden md:block"/> the relevant customs clearance is<br class="hidden md:block"/> completed in a timely manner</p>
 			</div>
-			<img class="hidden xl:block xl:-mt-80" src="~assets/img/fifth-section.svg">
+<!-- 			<img class="hidden xl:block xl:-mt-80" src="~assets/img/fifth-section.svg"> -->
+		    <Lottie class="hidden xl:block xl:-mt-80" animation="customs"></Lottie>
 			<img class="block xl:hidden" src="~assets/img/fifth-section_mobile.svg">
 		</section>
 		<section class="section-five text-center" id="ships-agent">
@@ -111,16 +117,17 @@
 				<h2 class="text-darkblue">Ships agent</h2>
 				<p>Our Ships Agents coordinate<br class="hidden md:block" /> and facilitate all parties<br class="hidden md:block"/> requirements within the port</p>
 			</div>
-			<img class="hidden xl:block -mt-140 xl:-mb-32 xl:-ml-36" src="~assets/img/sixth-section.svg">
+<!-- 			<img class="hidden xl:block -mt-140 xl:-mb-32 xl:-ml-36" src="~assets/img/sixth-section.svg"> -->
+		    <Lottie class="hidden xl:block -mt-140 xl:-mb-32 xl:-ml-36" animation="ship"></Lottie>
 			<img class="block xl:hidden -mb-20" src="~assets/img/sixth-section_mobile2.svg">
 		</section>
 		
 		<section class="section-six bg-lightblue text-center">
-			<div class="container pt-32 xl:pt-48 pb-20">
+			<div class="container pt-32 xl:pt-48 pb-20" style="z-index: 100; position: relative;">
 				<p>Our Ships Agents complete<br class="hidden md:block" /> cargo documentation and<br class="hidden md:block"/> arrange vessel’s departure</p>
 			</div>
-			<img class="xl:-mt-24" src="~assets/img/seventh-section.svg">
-<!-- 			<img class="block xl:hidden -ml-24" src="~assets/img/seventh-section_mobile.svg"> -->
+<!-- 			<img class="xl:-mt-24" src="~assets/img/seventh-section.svg"> -->
+		    <Lottie class="xl:-mt-48" style="z-index:1 ; position: relative;" animation="ship2"></Lottie>
 		</section>
 		
 		
@@ -215,7 +222,8 @@
 					</div>
 				
 			</div>
-			<img class="" src="~assets/img/footer-section.svg">
+<!-- 			<img class="" src="~assets/img/footer-section.svg"> -->
+		    <Lottie class="" animation="contact"></Lottie>
 		</section>
 		
 		
