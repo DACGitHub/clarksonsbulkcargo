@@ -118,7 +118,7 @@
 				<p>Our Ships Agents coordinate<br class="hidden md:block" /> and facilitate all parties<br class="hidden md:block"/> requirements within the port</p>
 			</div>
 <!-- 			<img class="hidden xl:block -mt-140 xl:-mb-32 xl:-ml-36" src="~assets/img/sixth-section.svg"> -->
-		    <Lottie class="hidden xl:block -mt-140 xl:-mb-32 xl:-ml-36" animation="ship"></Lottie>
+		    <Lottie class="hidden xl:block -mt-140 xl:-mb-10 xl:-ml-36" animation="ship"></Lottie>
 			<img class="block xl:hidden -mb-20" src="~assets/img/sixth-section_mobile2.svg">
 		</section>
 		
