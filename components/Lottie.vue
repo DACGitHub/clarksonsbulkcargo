@@ -13,12 +13,17 @@
     mounted() {
       var animation = document.getElementById(`animation-${this.animation}`);
 
-      lottie.loadAnimation({
+      var anim = lottie.loadAnimation({
         container: animation, // the dom element that will contain the animation
         renderer: 'svg',
         loop: true,
         autoplay: true,
         path: '/animations/' + this.animation + '.json' // the path to the animation json
+      });
+
+      anim.addEventListener('DOMLoaded', (e) => {
+        console.log('element loaded')
+        this.$emit('animationLoaded')
       });
     }
   }

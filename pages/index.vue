@@ -1,5 +1,11 @@
 <template>
-  <div class="outer bg-skyblue text-offwhite" id="home">
+	<div>
+	<transition v-if="loaded">
+		<span class="text-offwhite">HEY!</span>
+	</transition>
+	<button class="text-offwhite" @click="loaded = !loaded">UNLOAD</button>
+	<transition name="fade">
+  <div class="outer bg-skyblue text-offwhite" id="home" v-show="loaded">
 	<link rel="stylesheet" href="https://use.typekit.net/gma3jng.css">
 
 	  <script type="text/javascript" src="js/load-more.js"></script>
@@ -75,7 +81,7 @@
 		<section class="section-one text-center" id="cargo">
 <!-- 			<img class="-mt-16 xl:-mt-48" src="~assets/img/first-section.svg"> -->
 			<!-- set the animation prob to the name of the file in static/animations and the component will take care of the rest :) -->
-		      <Lottie class="-mt-16 xl:-mt-48" animation="intro"></Lottie>
+		      <Lottie @animationLoaded="animationLoaded" class="-mt-16 xl:-mt-48" animation="intro"></Lottie>
 			<div class="container pt-20 xl:pt-24 pb-20">
 				<h2 class="text-darkblue">Cargo</h2>
 				<p>Crops grown to meet<br class="hidden md:block" /> demand in global market</p>
@@ -233,6 +239,8 @@
 		</footer>
 
   </div>
+	</transition>
+	</div>
 </template>
 
 
@@ -245,10 +253,20 @@ export default {
 		return {
 			menu: false,
 			fixedMenu: true,
+			animations: 1,
+			animationsLoaded: 0,
+			loaded: false,
 		}
   },
 	methods: {
-		
+		animationLoaded(){
+			this.animationsLoaded += 1
+			console.log('animation loaded from child')
+			if (this.animationsLoaded >= 1){
+				console.log('page is ready')
+				this.loaded = true;
+			}
+		}
 	},
 	mounted () {
 		window.addEventListener('scroll', this.handleScroll);
