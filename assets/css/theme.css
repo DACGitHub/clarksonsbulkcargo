@@ -2,11 +2,33 @@
 
 .fade-enter-active, .fade-leave-active {
   transition: all 0.75s cubic-bezier(.17,.67,.84,1.17);
+  transition-delay: 1.5s;
   transform: translateY(0px);
 }
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
   transform: translateY(25px);
+}
+
+.fade-out-enter-active, .fade-out-leave-active {
+  transition: opacity 1.5s cubic-bezier(.17,.67,.84,1.17);
+}
+.fade-out-enter, .fade-out-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+.loading-animation {
+  animation: loading 1s alternate infinite;
+  opacity: 0.25;
+}
+
+@keyframes loading {
+  from {
+    opacity: 0.25;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 html {

@@ -1,7 +1,7 @@
 <template>
 	<div>
-	<transition v-if="loaded">
-		<span class="text-offwhite">HEY!</span>
+	<transition name="fade-out">
+		<img class="loading-animation absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" v-if="!loaded" src="~assets/img/clarksons-bulk-cargo.svg">
 	</transition>
 	<button class="text-offwhite" @click="loaded = !loaded">UNLOAD</button>
 	<transition name="fade">
@@ -87,7 +87,7 @@
 				<p>Crops grown to meet<br class="hidden md:block" /> demand in global market</p>
 			</div>
 <!-- 			<img class="xl:-mt-32" src="~assets/img/second-section.svg"> -->
-		    <Lottie class="xl:-mt-32" animation="cargo"></Lottie>
+		    <Lottie @animationLoaded="animationLoaded" class="xl:-mt-32" animation="cargo"></Lottie>
 		</section>
 		<section class="section-two text-center" id="trader">
 			<div class="container pt-24 xl:pt-96">
@@ -95,7 +95,7 @@
 				<p>Trader connects<br class="hidden md:block" /> crops to buyer</p>
 			</div>
 <!-- 			<img class="hidden xl:block xl:-mt-80" src="~assets/img/third-section.svg"> -->
-		    <Lottie class="hidden xl:block xl:-mt-80" animation="trader"></Lottie>
+		    <Lottie @animationLoaded="animationLoaded" class="hidden xl:block xl:-mt-80" animation="trader"></Lottie>
 			<img class="block xl:hidden mt-12" src="~assets/img/third-section_mobile.svg">
 		</section>
 		<section class="section-three bg-lightblue text-center" id="broker">
@@ -105,7 +105,7 @@
 				<p>Our Ship Brokers source the<br class="hidden md:block" /> appropriate vessel and<br class="hidden md:block"/> trading routes for shipment</p>
 			</div>
 <!-- 			<img class="hidden xl:block xl:-mt-96" src="~assets/img/fourth-section.svg"> -->
-		    <Lottie class="hidden xl:block xl:-mt-96" style="z-index:1 ; position: relative;" animation="broker"></Lottie>
+		    <Lottie @animationLoaded="animationLoaded" class="hidden xl:block xl:-mt-96" style="z-index:1 ; position: relative;" animation="broker"></Lottie>
 			<img class="block xl:hidden" src="~assets/img/fourth-section_mobile2.svg">
 		</section>
 		<section class="section-four bg-lightblue text-center" id="customs">
@@ -114,7 +114,7 @@
 				<p>Our Customs Agents provide<br class="hidden md:block" /> guidance and support to ensure<br class="hidden md:block"/> the relevant customs clearance is<br class="hidden md:block"/> completed in a timely manner</p>
 			</div>
 <!-- 			<img class="hidden xl:block xl:-mt-80" src="~assets/img/fifth-section.svg"> -->
-		    <Lottie class="hidden xl:block xl:-mt-80" animation="customs"></Lottie>
+		    <Lottie @animationLoaded="animationLoaded" class="hidden xl:block xl:-mt-80" animation="customs"></Lottie>
 			<img class="block xl:hidden" src="~assets/img/fifth-section_mobile.svg">
 		</section>
 		<section class="section-five text-center" id="ships-agent">
@@ -124,7 +124,7 @@
 				<p>Our Ships Agents coordinate<br class="hidden md:block" /> and facilitate all parties<br class="hidden md:block"/> requirements within the port</p>
 			</div>
 <!-- 			<img class="hidden xl:block -mt-140 xl:-mb-32 xl:-ml-36" src="~assets/img/sixth-section.svg"> -->
-		    <Lottie class="hidden xl:block -mt-140 xl:-mb-10 xl:-ml-36" animation="ship"></Lottie>
+		    <Lottie @animationLoaded="animationLoaded" class="hidden xl:block -mt-140 xl:-mb-10 xl:-ml-36" animation="ship"></Lottie>
 			<img class="block xl:hidden -mb-20" src="~assets/img/sixth-section_mobile2.svg">
 		</section>
 		
@@ -133,7 +133,7 @@
 				<p>Our Ships Agents complete<br class="hidden md:block" /> cargo documentation and<br class="hidden md:block"/> arrange vessel’s departure</p>
 			</div>
 <!-- 			<img class="xl:-mt-24" src="~assets/img/seventh-section.svg"> -->
-		    <Lottie class="xl:-mt-48" style="z-index:1 ; position: relative;" animation="ship2"></Lottie>
+		    <Lottie @animationLoaded="animationLoaded" class="xl:-mt-48" style="z-index:1 ; position: relative;" animation="ship2"></Lottie>
 		</section>
 		
 		
@@ -229,7 +229,7 @@
 				
 			</div>
 <!-- 			<img class="" src="~assets/img/footer-section.svg"> -->
-		    <Lottie class="" animation="contact"></Lottie>
+		    <Lottie @animationLoaded="animationLoaded" class="" animation="contact"></Lottie>
 		</section>
 		
 		
@@ -262,7 +262,7 @@ export default {
 		animationLoaded(){
 			this.animationsLoaded += 1
 			console.log('animation loaded from child')
-			if (this.animationsLoaded >= 1){
+			if (this.animationsLoaded >= 8){
 				console.log('page is ready')
 				this.loaded = true;
 			}
