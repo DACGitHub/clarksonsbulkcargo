@@ -198,7 +198,7 @@
 				
 					<div class="grid lg:grid-cols-3 xl:mt-20 mt-12 text-center">
 						<div class="mb-12 xl:mb-0">
-							<img class="m-auto mb-8" src="~assets/img/jennifer-leonard@2x.png" style="width: 177px;">
+							<img class="m-auto mb-8" src="~assets/img/Asset 3@300x.png" style="width: 177px;">
 							<h3 class="mb-8"><span class="font-bold">John Gardner</span><br />
 								Broker</h3>
 							</h3>
@@ -216,7 +216,7 @@
 							</p>
 						</div>
 						<div class="">
-							<img class="m-auto mb-8" src="~assets/img/jennifer-leonard@2x.png" style="width: 177px;">
+							<img class="m-auto mb-8" src="~assets/img/Asset 2@300x.png" style="width: 177px;">
 							<h3 class="mb-8"><span class="font-bold">Lewis Gardner</span><br />
 								Broker</h3>
 							</h3>
