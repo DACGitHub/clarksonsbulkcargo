@@ -34,7 +34,7 @@
 html {
   scroll-behavior: smooth;
   --tw-bg-opacity: 1;
-  background-color: rgba(0, 46, 69, var(--tw-bg-opacity));
+  background-color: #203171;
 }
 
 .container {
