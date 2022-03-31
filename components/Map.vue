@@ -118,15 +118,15 @@
         >
           <style type="text/css">
             .st0 {
-              fill: #4dd2ff;
+              fill: #82D3F1;
             }
             .st1 {
               fill: none;
-              stroke: #012169;
+              stroke: #203171;
               stroke-width: 2;
             }
             .st2 {
-              fill: #012169;
+              fill: #203171;
             }
             .st3 {
               fill: transparent;
@@ -1563,7 +1563,7 @@ export default {
 
 .map-location {
   margin-top: 50px;
-  color: #00BFFF;
+  color: #82D3F1;
 }
 
 #select-location {
@@ -1572,13 +1572,13 @@ export default {
 
 #map-email {
   font-size: 1.2rem;
-  color: #22183D;
+  color: #203171;
   font-weight: 300;
 }
 
 .map-email-ipswich {
   font-size: 1.2rem;
-  color: #22183D;
+  color: #203171;
   font-weight: 300;
 }
 
@@ -1620,7 +1620,7 @@ export default {
 }
 
 .map-active path {
-  fill: #DA291C;
+  fill: #F24C4E;
 }
 
 @keyframes scale {
@@ -1659,7 +1659,7 @@ export default {
 
 
 .slick-carousel .address {
-  background-color: #b3ecff;
+  background-color: #82D3F1;
   border-radius: 15px;
   padding: 15px;
   margin: 0px 20px;

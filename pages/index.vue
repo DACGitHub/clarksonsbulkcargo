@@ -1,7 +1,7 @@
 <template>
 	<div>
 	<transition name="fade-out">
-		<img class="loading-animation absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" v-if="!loaded" src="~assets/img/clarksons-bulk-cargo.svg">
+		<img class="loading-animation absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" v-if="!loaded" src="~assets/img/2020-logo.svg" alt="">
 	</transition>
 	<button class="text-offwhite" @click="loaded = !loaded">UNLOAD</button>
 	<transition name="fade">
@@ -18,7 +18,7 @@
 
 					<div class="justify-self-start" style="width:100px;">
 						<a href="#home">
-						<img style="width:184px; max-width: none;" src="~assets/img/clarksons-bulk-cargo-mobile.svg">
+						<img style="width:184px; max-width: none;" src="~assets/img/2020-logo.svg">
 						</a>
 					</div>
 					<div class="burger-menu ml-auto" @click="menu = !menu">
@@ -34,7 +34,7 @@
 				<div class="grid grid-cols-2 lg:grid-cols-2 justify-items-end lg:justify-items-center items-center">
 					<div class="justify-self-start" style="width:100px;">
 						<a href="#home">
-						<img style="width:184px; max-width: none;" src="~assets/img/clarksons-bulk-cargo-mobile.svg">
+						<img style="width:184px; max-width: none;" src="~assets/img/2020-logo.svg">
 						</a>
 					</div>
 					<div class="burger-menu burger-close ml-auto xl:hidden" @click="menu = !menu">
@@ -65,7 +65,7 @@
 
 				<div class="grid grid-cols-1 pt-16 xl:pb-24 pb-12 hidden xl:block">
 					<div class="justify-self-start">
-						<img src="~assets/img/clarksons-bulk-cargo.svg">
+						<img src="~assets/img/2020-logo.svg">
 					</div>
 				</div>
 				<div class="grid grid-cols-1 justify-items-center items-center">
@@ -81,13 +81,13 @@
 		<section class="section-one text-center" id="cargo">
 <!-- 			<img class="-mt-16 xl:-mt-48" src="~assets/img/first-section.svg"> -->
 			<!-- set the animation prob to the name of the file in static/animations and the component will take care of the rest :) -->
-		      <Lottie @animationLoaded="animationLoaded" class="-mt-16 xl:-mt-48" animation="intro"></Lottie>
+		      <Lottie @animationLoaded="animationLoaded" class="-mt-16 xl:-mt-48" animation="2022/01_Intro/01_Intro"></Lottie>
 			<div class="container pt-20 xl:pt-24 pb-20">
 				<h2 class="text-darkblue">Cargo</h2>
 				<p>Crops grown to meet<br class="hidden md:block" /> demand in global market</p>
 			</div>
 <!-- 			<img class="xl:-mt-32" src="~assets/img/second-section.svg"> -->
-		    <Lottie @animationLoaded="animationLoaded" class="xl:-mt-32" animation="cargo"></Lottie>
+		    <Lottie @animationLoaded="animationLoaded" class="xl:-mt-32" animation="2022/02_Cargo/02_Cargo"></Lottie>
 		</section>
 		<section class="section-two text-center" id="trader">
 			<div class="container pt-24 xl:pt-96">
@@ -95,7 +95,7 @@
 				<p>Trader connects<br class="hidden md:block" /> crops to buyer</p>
 			</div>
 <!-- 			<img class="hidden xl:block xl:-mt-80" src="~assets/img/third-section.svg"> -->
-		    <Lottie @animationLoaded="animationLoaded" class="hidden xl:block xl:-mt-80" animation="trader"></Lottie>
+		    <Lottie @animationLoaded="animationLoaded" class="hidden xl:block xl:-mt-80" animation="2022/03_Trader/03_Trader"></Lottie>
 			<img class="block xl:hidden mt-12" src="~assets/img/third-section_mobile.svg">
 		</section>
 		<section class="section-three bg-lightblue text-center" id="broker">
@@ -105,7 +105,7 @@
 				<p>Our Ship Brokers source the<br class="hidden md:block" /> appropriate vessel and<br class="hidden md:block"/> trading routes for shipment</p>
 			</div>
 <!-- 			<img class="hidden xl:block xl:-mt-96" src="~assets/img/fourth-section.svg"> -->
-		    <Lottie @animationLoaded="animationLoaded" class="hidden xl:block xl:-mt-96" style="z-index:1 ; position: relative;" animation="broker"></Lottie>
+		    <Lottie @animationLoaded="animationLoaded" class="hidden xl:block xl:-mt-96" style="z-index:1 ; position: relative;" animation="2022/04_Broker/04_Broker"></Lottie>
 			<img class="block xl:hidden" src="~assets/img/fourth-section_mobile2.svg">
 		</section>
 		<section class="section-four bg-lightblue text-center" id="customs">
@@ -114,7 +114,7 @@
 				<p>Our Customs Agents provide<br class="hidden md:block" /> guidance and support to ensure<br class="hidden md:block"/> the relevant customs clearance is<br class="hidden md:block"/> completed in a timely manner</p>
 			</div>
 <!-- 			<img class="hidden xl:block xl:-mt-80" src="~assets/img/fifth-section.svg"> -->
-		    <Lottie @animationLoaded="animationLoaded" class="hidden xl:block xl:-mt-80" animation="customs"></Lottie>
+		    <Lottie @animationLoaded="animationLoaded" class="hidden xl:block xl:-mt-80" animation="2022/05_Customs/05_Customs"></Lottie>
 			<img class="block xl:hidden" src="~assets/img/fifth-section_mobile.svg">
 		</section>
 		<section class="section-five text-center" id="ships-agent">
@@ -124,7 +124,7 @@
 				<p>Our Ships Agents coordinate<br class="hidden md:block" /> and facilitate all parties<br class="hidden md:block"/> requirements within the port</p>
 			</div>
 <!-- 			<img class="hidden xl:block -mt-140 xl:-mb-32 xl:-ml-36" src="~assets/img/sixth-section.svg"> -->
-		    <Lottie @animationLoaded="animationLoaded" class="hidden xl:block -mt-140 xl:-mb-10 xl:-ml-36" animation="ship"></Lottie>
+		    <Lottie @animationLoaded="animationLoaded" class="hidden xl:block -mt-140 xl:-mb-10 xl:-ml-36" animation="2022/06_ShipAgent01/06_ShipAgent01"></Lottie>
 			<img class="block xl:hidden -mb-20" src="~assets/img/sixth-section_mobile2.svg">
 		</section>
 		
@@ -133,7 +133,7 @@
 				<p>Our Ships Agents complete<br class="hidden md:block" /> cargo documentation and<br class="hidden md:block"/> arrange vessel’s departure</p>
 			</div>
 <!-- 			<img class="xl:-mt-24" src="~assets/img/seventh-section.svg"> -->
-		    <Lottie @animationLoaded="animationLoaded" class="xl:-mt-48" style="z-index:1 ; position: relative;" animation="ship2"></Lottie>
+		    <Lottie @animationLoaded="animationLoaded" class="xl:-mt-48" style="z-index:1 ; position: relative;" animation="2022/07_ShipAgent02/07_ShipAgent02"></Lottie>
 		</section>
 		
 		
@@ -229,7 +229,7 @@
 				
 			</div>
 <!-- 			<img class="" src="~assets/img/footer-section.svg"> -->
-		    <Lottie @animationLoaded="animationLoaded" class="" animation="contact"></Lottie>
+		    <Lottie @animationLoaded="animationLoaded" class="" animation="2022/08_Contact/08_Contact"></Lottie>
 		</section>
 		
 		
