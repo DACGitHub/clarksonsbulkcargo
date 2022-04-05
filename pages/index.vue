@@ -1,7 +1,7 @@
 <template>
 	<div>
 	<transition name="fade-out">
-		<img class="loading-animation absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" v-if="!loaded" src="~assets/img/2020-logo.svg" alt="">
+		<img class="loading-animation absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" v-if="!loaded" src="~assets/img/2022-logo.svg" alt="">
 	</transition>
 	<button class="text-offwhite" @click="loaded = !loaded">UNLOAD</button>
 	<transition name="fade">
@@ -18,7 +18,7 @@
 
 					<div class="justify-self-start" style="width:100px;">
 						<a href="#home">
-						<img style="width:184px; max-width: none;" src="~assets/img/2020-logo.svg">
+						<img style="width:184px; max-width: none;" src="~assets/img/2022-logo.svg">
 						</a>
 					</div>
 					<div class="burger-menu ml-auto" @click="menu = !menu">
@@ -34,7 +34,7 @@
 				<div class="grid grid-cols-2 lg:grid-cols-2 justify-items-end lg:justify-items-center items-center">
 					<div class="justify-self-start" style="width:100px;">
 						<a href="#home">
-						<img style="width:184px; max-width: none;" src="~assets/img/2020-logo.svg">
+						<img style="width:184px; max-width: none;" src="~assets/img/2022-logo.svg">
 						</a>
 					</div>
 					<div class="burger-menu burger-close ml-auto xl:hidden" @click="menu = !menu">
@@ -65,7 +65,7 @@
 
 				<div class="grid grid-cols-1 pt-16 xl:pb-24 pb-12 hidden xl:block">
 					<div class="justify-self-start">
-						<img src="~assets/img/2020-logo.svg">
+						<img src="~assets/img/2022-logo.svg">
 					</div>
 				</div>
 				<div class="grid grid-cols-1 justify-items-center items-center">
