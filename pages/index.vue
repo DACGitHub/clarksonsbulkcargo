@@ -141,7 +141,7 @@
 			
 			<div class="container">
 				
-					<h2 class="h1 text-center uppercase">Contact us</h2>
+					<h2 class="h1 text-center uppercase text-darkblue">Contact us</h2>
 
 					<Map></Map>
 				
