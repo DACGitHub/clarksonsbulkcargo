@@ -648,10 +648,10 @@
                 id="newcastle"
                 class="map-place"
                 data-name="Newcastle"
-                data-address1="Suite 207, Navigation House"
-                data-address2="Tyne Dock"
-                data-address3="South Shields"
-                data-postcode="NE34 0AB"
+                data-address1="Clervaux Exchange"
+                data-address2="Clervaux Terrace"
+                data-address3="Jarrow"
+                data-postcode="NE32 5UP"
                 data-tel="+44 (0) 1914 277043"
                 data-email="tyne@clarksons.com"
                 style="transform-origin: 37.7% 50%"
@@ -1379,9 +1379,9 @@
                 <img class="list-icon" src="~/assets/img/icon_contact.svg" />
               </div>
               <div class="inline-block">
-                <p class="mt-0">Suite 207, Navigation House</p>
-                <p>Tyne Dock, South Shields</p>
-                <p>NE34 0AB</p>
+                <p class="mt-0">Clervaux Exchange</p>
+                <p>Clervaux Terrace, Jarrow</p>
+                <p>NE32 5UP</p>
               </div>
             </div>
 
