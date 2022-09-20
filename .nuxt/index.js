@@ -16,6 +16,7 @@ import nuxt_plugin_plugin_2ab9abf8 from 'nuxt_plugin_plugin_2ab9abf8' // Source:
 import nuxt_plugin_libplugin57f72787_71cd97bb from 'nuxt_plugin_libplugin57f72787_71cd97bb' // Source: ./lib.plugin.57f72787.js (mode: 'client')
 import nuxt_plugin_pluginclient_a9d68918 from 'nuxt_plugin_pluginclient_a9d68918' // Source: ./content/plugin.client.js (mode: 'client')
 import nuxt_plugin_pluginserver_10ce2cfc from 'nuxt_plugin_pluginserver_10ce2cfc' // Source: ./content/plugin.server.js (mode: 'server')
+import nuxt_plugin_googleanalytics_05550f50 from 'nuxt_plugin_googleanalytics_05550f50' // Source: ./google-analytics.js (mode: 'client')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -61,7 +62,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"Clarksons Bulk Cargo","htmlAttrs":{"lang":"en"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"script":[{"src":"https:\u002F\u002Fplayer.vimeo.com\u002Fapi\u002Fplayer.js"}],"style":[]},
+    head: {"title":"Clarksons Bulk Cargo","htmlAttrs":{"lang":"en"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Supporting growth across the Agri Bulk Sector"},{"hid":"og:image","property":"og:image","content":"\u002Fsocial-image.png"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"script":[{"src":"https:\u002F\u002Fplayer.vimeo.com\u002Fapi\u002Fplayer.js"}],"style":[]},
 
     router,
     nuxt: {
@@ -189,6 +190,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (process.server && typeof nuxt_plugin_pluginserver_10ce2cfc === 'function') {
     await nuxt_plugin_pluginserver_10ce2cfc(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_googleanalytics_05550f50 === 'function') {
+    await nuxt_plugin_googleanalytics_05550f50(app.context, inject)
   }
 
   // Lock enablePreview in context

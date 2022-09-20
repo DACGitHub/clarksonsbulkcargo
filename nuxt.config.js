@@ -4,6 +4,11 @@ export default {
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  
+    googleAnalytics: {
+    id: 'UA-44336963-29'
+  },
+  
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -51,6 +56,8 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+	'@nuxtjs/google-analytics',
+
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     // Simple usage
