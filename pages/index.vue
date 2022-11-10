@@ -207,11 +207,11 @@
 							</p>
 						</div>
 						<div class="mb-12 xl:mb-0">
-							<img class="m-auto mb-8" src="~assets/img/mark-stent@2x.png" style="width: 177px;">
-							<h3 class="mb-8"><span class="font-bold">Mark Stent</span><br />
+							<img class="m-auto mb-8" src="~assets/img/mark-ewings.png" style="width: 177px;">
+							<h3 class="mb-8"><span class="font-bold">Mark Ewings</span><br />
 								Broker</h3>
 							</h3>
-							<p class="small">+44 (0) 781 050 3919<br />
+							<p class="small">+44 (0) 786 659 4930<br />
 								<a href="mailto:shortsea@clarksons.com">shortsea@clarksons.com</a>
 							</p>
 						</div>
